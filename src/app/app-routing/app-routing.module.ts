@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 
 import { PortfolioComponent } from '../portfolio/portfolio.component';
+import { AboutComponent } from '../about/about.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/portfolio', pathMatch: 'full' },
   { path: 'portfolio', component: PortfolioComponent },
-  
+  { path: 'about', component: AboutComponent },
   ];
 
 @NgModule({
